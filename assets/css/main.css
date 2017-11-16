@@ -1837,7 +1837,7 @@ a.label:hover,a.label:focus{color:#fff;text-decoration:none;cursor:pointer}
 			}
 
 			h2 {
-				font-size: 2em;
+				font-size: 2.25em;
 				letter-spacing: -0.015em;
 			}
 
@@ -1926,7 +1926,7 @@ a.label:hover,a.label:focus{color:#fff;text-decoration:none;cursor:pointer}
 		/* Wrappers */
 
 			.wrapper {
-				padding: 4em 0 2em 0;
+				padding: 2em 0 2em 0;
 				text-align: center;
 			}
 
@@ -2071,7 +2071,12 @@ a.label:hover,a.label:focus{color:#fff;text-decoration:none;cursor:pointer}
 				font-size: 2.25em;
 				line-height: 1.25em;
 			}
-
+			
+			h2 {
+				font-size: 1.75em;
+				letter-spacing: -0.02em;
+			}
+			
 			header {
 				margin: 0 0 2em 0;
 			}
