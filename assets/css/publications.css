@@ -33,7 +33,7 @@
 #publications-list li .publication-inpress {
     position: absolute;
     bottom: 47px;
-    left: -80px;
+    left: -75px;
     font-size: 16px;
 
     -webkit-transform: rotate(-90deg);
