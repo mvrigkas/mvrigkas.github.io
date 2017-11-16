@@ -1,0 +1,60 @@
+#publications-list {
+    margin: -10px 0;
+}
+#publications-list li {
+    border-left: 3px solid #0077b3;
+    padding: 0 10px;
+    margin: 20px 0 30px 20px;
+    position: relative;
+    min-height: 80px;
+}
+#publications-list li h2 {
+    font-size: 20px;
+    margin-top: 5px;
+}
+#publications-list li .publication-year {
+    position: absolute;
+    top: 10px;
+    left: -40px;
+    font-size: 18px;
+
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+#publications-list li .publication-inpress {
+    position: absolute;
+    bottom: 47px;
+    left: -80px;
+    font-size: 18px;
+
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+#publications-list li .publication-title {
+	
+	font-size: 115%;
+}
+#publications-list li .publication-authors {
+    font-weight: bold;
+}
+#publications-list li .publication-references {
+    font-style: italic;
+}
