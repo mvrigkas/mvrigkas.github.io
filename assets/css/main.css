@@ -1089,7 +1089,7 @@
 
 	body, input, textarea, select {
 		font-family: 'Open Sans', sans-serif;
-		line-height: 1.85em;
+		line-height: 1.65em;
 		color: #303030;
 		font-weight: 300;
 	}
@@ -1710,7 +1710,7 @@
 
 		.wrapper.style2 {
 			background-color: #fafafa;
-			text-shadow: 1px 1px 0px #fff;
+			text-shadow: none;
 		}
 
 		.wrapper.style3 {
@@ -1867,6 +1867,7 @@
 					font-size: 1.25em;
 				}
 
+			
 		/* Form */
 
 			form input[type="button"],

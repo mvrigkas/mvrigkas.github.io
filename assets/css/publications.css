@@ -32,7 +32,7 @@
 }
 #publications-list li .publication-inpress {
     position: absolute;
-    bottom: 47px;
+    bottom: 42px;
     left: -75px;
     font-size: 16px;
 
@@ -55,6 +55,7 @@
 }
 #publications-list li .publication-authors {
     font-weight: none;
+	margin: 0 0 -0.35em 0;
 }
 #publications-list li .publication-references {
     font-style: italic;
