@@ -53,11 +53,11 @@
 	font-weight: bold;
 }
 #publications-list li .publication-authors {
-	font-size: 95%;
+	font-size: 100%;
     font-weight: none;
 	margin: 0 0 -0.35em 0;
 }
 #publications-list li .publication-references {
-	font-size: 95%;
+	font-size: 100%;
     font-style: italic;
 }
