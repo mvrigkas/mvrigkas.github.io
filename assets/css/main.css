@@ -54,6 +54,12 @@
 		display: block;
 	}
 
+	pre {
+		background-color: #f0f0f0;
+		/*white-space:pre-line;
+		border: 1px solid black;*/
+		color: #000000;
+	}
 
 	blockquote, q {
 		quotes: none;
