@@ -1164,6 +1164,9 @@
 	.label-danger{background-color:#d9534f}
 	.label-danger[href]:hover,.label-danger[href]:focus{background-color:#c9302c}
 	.label-danger a{text-decoration:none; color: #ffffff !important;}
+	.label-abstract{background-color:#9988c9}
+	.label-abstract[href]:hover,.label-abstract[href]:focus{background-color:#9778b7}
+	.label-abstract a{text-decoration:none; color: #ffffff !important;}
 
 	b, strong {
 		font-weight: 600;

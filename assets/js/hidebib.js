@@ -13,10 +13,10 @@ function hideallbibs()
 
 function hideallabstracts()
 {
-    var el = document.getElementsByTagName("div") ;
+    var el = document.getElementsByTagName("span") ;
     for (var i = 0 ; i < el.length ; ++i) {
-        if (el[i].className == "publication-abstract") {
-            var bib = el[i].getElementsByTagName("pre") ;
+        if (el[i].className == "elaboration") {
+            var bib = el[i].getElementsByTagName("span") ;
             if (bib.length > 0) {
                 bib [0] .style.display = 'none' ;
             }
@@ -35,4 +35,20 @@ function togglebib(paperid)
             bib [0] .style.display = 'none' ;
         }
     }
+}
+
+function toggleDisplay(d,b)
+{
+	var c=document.getElementById(d);
+	if(c.style.display=="block"){
+		c.style.display="none";
+		/*if(b){
+			b.innerHTML="Read more..."
+		}*/
+	}
+	else{c.style.display="block";
+		/*if(b){
+			b.innerHTML="Fold in..."
+		}*/
+	}
 }
