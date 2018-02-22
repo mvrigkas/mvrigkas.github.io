@@ -67,6 +67,7 @@
 		border:1px solid #BFBFBF;
 		border-radius: 5px;
 		padding: 5px 10px 5px 10px;
+		margin-top:3px;
 	}
 
 	blockquote, q {
@@ -94,6 +95,8 @@
 		border-color: #BFBFBF;
 		border-width: 1px;
 		padding: 5px 10px 5px 10px;
+		margin-bottom:2px;
+		margin-top:3px;
 	}
 /* Box Model */
 
