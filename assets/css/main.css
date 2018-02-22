@@ -64,6 +64,8 @@
 		white-space: -pre-wrap;      /* Opera 4-6 */
 		white-space: -o-pre-wrap;    /* Opera 7 */
 		word-wrap: break-word;       /* Internet Explorer 5.5+ */
+		border:1px solid #BFBFBF;
+		border-radius: 5px;
 	}
 
 	blockquote, q {
@@ -84,6 +86,13 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	.span-boxcolor{
+		background-color:#f0f0f0;
+		border-style: solid;
+		border-radius: 5px;
+		border-color: #BFBFBF;
+		border-width: 1px;
+	}
 /* Box Model */
 
 	*, *:before, *:after {
