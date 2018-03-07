@@ -11,19 +11,6 @@ function hideallbibs()
     }
 }
 
-function hideallabstracts()
-{
-    var el = document.getElementsByTagName("span") ;
-    for (var i = 0 ; i < el.length ; ++i) {
-        if (el[i].className == "elaboration") {
-            var bib = el[i].getElementsByTagName("span") ;
-            if (bib.length > 0) {
-                bib [0] .style.display = 'none' ;
-            }
-        }
-    }
-}
-
 function togglebib(paperid)
 {
     var paper = document.getElementById(paperid) ;
@@ -37,18 +24,25 @@ function togglebib(paperid)
     }
 }
 
-function toggleDisplay(d,b)
+function hideallabstracts()
 {
-	var c=document.getElementById(d);
-	if(c.style.display=="block"){
-		c.style.display="none";
-		/*if(b){
-			b.innerHTML="Read more..."
-		}*/
+    var el = document.getElementsByTagName("div") ;
+    for (var i = 0 ; i < el.length ; ++i) {
+        if (el[i].className == "elaboration") {
+            var bib = el[i].getElementsByTagName("span") ;
+            if (bib.length > 0) {
+                bib [0] .style.display = 'none' ;
+            }
+        }
+    }
+}
+
+function toggleAbstract(paperid,b)
+{
+	var c=document.getElementById(paperid);
+	if(c.style.display=="none"){
+		c.style.display="block";
 	}
-	else{c.style.display="block";
-		/*if(b){
-			b.innerHTML="Fold in..."
-		}*/
+	else{c.style.display="none";
 	}
 }
