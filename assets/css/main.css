@@ -1126,6 +1126,7 @@
 		line-height: 1.65em;
 		color: #303030;
 		font-weight: 300;
+		font-size: 16px;
 	}
 
 		body.is-loading *, input.is-loading *, textarea.is-loading *, select.is-loading * {
@@ -1421,7 +1422,7 @@
 		}
 
 			.image.centered img {
-				margin: 0 auto;
+				margin: 1em auto;
 				width: auto;
 			}
 
@@ -1876,7 +1877,9 @@
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 12pt;%13pxt;
+				font-family: sans-serif;
+				font-weight: 300;
+				font-size: 12pt;%13pt;
 			}
 
 			h1 {
@@ -2166,7 +2169,7 @@
 			}
 
 		/* List */
-
+		/*
 			ul.social {
 				padding: 1em 0.5em 0 0.5em;
 			}
@@ -2195,6 +2198,7 @@
 					ul.actions li:first-child {
 						margin-top: 0;
 					}
+			*/
 
 		/* Box */
 
