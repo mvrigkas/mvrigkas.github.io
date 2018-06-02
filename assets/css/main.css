@@ -1145,12 +1145,12 @@
 		-webkit-transition: color .2s ease-in-out;
 		-ms-transition: color .2s ease-in-out;
 		transition: color .2s ease-in-out;
-		color: #43B3E0;	 /*blue*/
+		color: #2a7ae2;	 /*blue*/
 		text-decoration: none;
 	}
 
 		a:hover {
-			color: #43bff0 !important;  /*blue*/
+			color: #2a7ae2 !important;  /*blue*/
 			text-decoration: underline;
 		}
 
@@ -1304,7 +1304,7 @@
 		form select:focus,
 		form textarea:focus {
 			background: #fafafa;
-			box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025), inset 0px 0px 2px 1px #43bff0;  /*blue*/
+			box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025), inset 0px 0px 2px 1px #2a7ae2;  /*blue*/
 		}
 
 	form textarea {
@@ -1454,7 +1454,7 @@
 		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-		background-color: #43B3E0;  /*blue*/
+		background-color: #2a7ae2;  /*blue*/
 	}
 
 		input[type="button"]:hover,
@@ -1462,7 +1462,7 @@
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #43bff0;  /*blue*/
+			background-color: #2a7ae2;  /*blue*/
 			color: #fff !important;
 		}
 
