@@ -346,6 +346,7 @@
                                         <div class="col-md-3">
                                             <select id="cd-dropdown" name="cd-dropdown" class="cd-select">
                                                 <option class="filter" value="all" selected>All years</option>
+                                                <option class="filter" value="2020">2020</option>
                                                 <option class="filter" value="2019">2019</option>
                                                 <option class="filter" value="2018">2018</option>
                                                 <option class="filter" value="2017">2017</option>
@@ -375,6 +376,50 @@
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="pitems">
+											
+											<!--EI 2020-->
+                                                <div class="item mix cpaper 2020" data-year="2020">
+                                                    <div class="pubmain">
+                                                        <div class="pubassets">
+                                                            <a href="" class="tooltips" title="External link" target="_blank">
+                                                                <i class="icon-external-link"></i>
+                                                            </a>
+                                                            <a href="publications/Conferences/C13_EI_2010_SanFransisco.pdf" class="tooltips" title="Download" target="_blank">
+                                                                <i class="icon-file-text-alt"></i>
+                                                            </a>
+                                                        </div>
+                                                        <span id="publications-list">
+                                                          <ul class"list-unstyled-left">
+                                                            <li>
+                                                              <div class="publication-inpress">2020 <br>(To appear)</div>
+														<!--<div class="publication-year">2020</div>-->
+                                                        <h4 class="pubtitle">Improving 3D medical image compression efficiency using spatiotemporal coherence</h4>
+                                                        <div class="pubauthor">M.C. Zerva, <strong>M. Vrigkas</strong>, L.P. Kondi, C. Nikou</div>
+                                                        <div class="pubcite"><span class="label label-danger">Conference Paper</span>IS&T International Symposioum on Electronic Imaging, Image Processing: Algorithms and Systems XVII, Burlingame, CA, USA, January 26-30 2020</div>
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <div class="span-boxcolor">
+                                                        <p align="justify">
+                                                          Advanced methodologies for transmitting compressed images, within acceptable ranges of transmission rate and loss of information, make it possible to transmit a medical image through a communication channel. Most prior works on 3D medical image compression consider volumetric images as a whole but fail to account for the spatial and temporal coherence of adjacent slices. In this paper, we set out to develop a 3D medical image compression method that extends the 3D wavelet difference reduction algorithm by computing the similarity of the pixels in adjacent slices and progressively compress only the similar slices. The proposed method achieves high-efficiency performance on publicly available datasets of MRI scans by achieving compression down to one bit per voxel with PSNR and SSIM up to 52.3 dB and 0.7578, respectively.
+                                                        </p>
+                                                        </div>
+                                                        <br>
+                                                        <h4>BibTex</h4>
+                                                        <pre xml:space="preserve">
+@inproceedings{MZerva_etal_20,
+  author    = {Matina Ch. Zerva and Michalis Vrigkas and Lisimachos P. Kondi and Christophoros Nikou},
+  title     = {Improving {3D} medical image compression efficiency using spatiotemporal coherence},
+  booktitle = {Proc. IS&T International Symposioum on Electronic Imaging, Image Processing: Algorithms and Systems XVII},
+  address   = {Burlingame, CA},
+  month     = {January},
+  year 	    = {2020}
+}</pre>
+                                                            </li>
+                                                          </ul>
+                                                        </div>
+                                                    </span>
+                                                </div>
 
                                               <!--ICIP 2019-->
                                                 <div class="item mix cpaper 2019" data-year="2019">
@@ -390,8 +435,7 @@
                                                         <span id="publications-list">
                                                           <ul class"list-unstyled-left">
                                                             <li>
-                                                              <!--<div class="publication-inpress">2019 <br>(To appear)</div>-->
-					                      <div class="publication-year">2019</div>
+														<div class="publication-year">2019</div>
                                                         <h4 class="pubtitle">RECASPIA: Recognizing carrying actions in single images using privileged information</h4>
                                                         <div class="pubauthor">C. Smailis, <strong>M. Vrigkas</strong>, I.A. Kakadiaris</div>
                                                         <div class="pubcite"><span class="label label-danger">Conference Paper</span>26<sup>th</sup> International Conference on Image Processing, pp. 26-30, Taipei, Taiwan, September 22-25 2019</div>
@@ -692,7 +736,7 @@
                                                               <div class="publication-year">2017</div>
                                                         <h4 class="pubtitle">Human activity recognition using robust adaptive privileged probabilistic learning</h4>
                                                         <div class="pubauthor"><strong>M. Vrigkas</strong>, E. Kazakos, C. Nikou, I.A. Kakadiaris</div>
-                                                        <div class="pubcite"><span class="label label-success">Journal Paper</span> arXiv preprint arXiv:1709.06447, September 2017</div>
+                                                        <div class="pubcite"><span class="label label-primary">arXiv Paper</span> arXiv preprint arXiv:1709.06447, September 2017</div>
                                                     </div>
                                                     <div class="pubdetails">
                                                         <h4>Abstract</h4>
@@ -1491,7 +1535,7 @@
 										</div>
 									</li>
 									
-									<li>
+									<!--<li>
 										<div class="row">
 											<div class="col-sm-4 col-md-3">
 												<div class="image">
@@ -1526,7 +1570,7 @@
 													  </li>
 											   </div>
 										</div>
-									</li>
+									</li>-->
 									
                                     <li>
 									  <div class="row">
