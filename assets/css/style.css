@@ -1132,7 +1132,8 @@ ul.timeline li .data .text {
 	right: 0;
 	background: #fafafa;
 	text-align: center;
-	border-top: 2px solid;
+	/*border-top: 2px solid;*/
+	border-top: 0px solid;
 }
 
 .pitems .pubmain .pubassets a {
