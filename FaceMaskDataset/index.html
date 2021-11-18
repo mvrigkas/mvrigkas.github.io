@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html amp>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+        <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+        <meta name="description" content="">
+
+        <title>FaceMaskDetector</title>
+
+        <link rel="canonical" href="index.html">
+        <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
+        <noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles.css">
+
+        <script async  src="https://cdn.ampproject.org/v0.js"></script>
+        <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+        <script async custom-element="amp-animation" src="https://cdn.ampproject.org/v0/amp-animation-0.1.js"></script>
+        <script async custom-element="amp-position-observer" src="https://cdn.ampproject.org/v0/amp-position-observer-0.1.js"></script>
+
+    </head>
+
+
+    <body>
+        <div id="top-page"></div>
+
+            <amp-animation id="showScrollToTopAnim" layout="nodisplay">
+                <script type="application/json">
+                    {"duration": "200ms",
+                    "fill": "both",
+                    "iterations": "1",
+                    "direction": "alternate",
+                    "animations": [{"selector": "#scrollToTopButton","keyframes": [{ "opacity": "0.4", "visibility": "visible" }]}]}
+                </script>
+            </amp-animation>
+
+            <amp-animation id="hideScrollToTopAnim" layout="nodisplay">
+                <script type="application/json">
+                    {"duration": "200ms",
+                    "fill": "both",
+                    "iterations": "1",
+                    "direction": "alternate",
+                    "animations": [{"selector": "#scrollToTopButton","keyframes": [{ "opacity": "0", "visibility": "hidden" }]}]}
+                </script>
+            </amp-animation>
+
+            <div id="scrollToTopMarker">
+                <amp-position-observer on="enter:hideScrollToTopAnim.start; exit:showScrollToTopAnim.start" layout="nodisplay">
+                </amp-position-observer>
+            </div>
+
+
+        <!-- Top Content  -->
+        <section class="mbr-section content18 cid-r4QLoIqSWW" id="content18-0">
+            <video width="100%" autoplay muted loop id="myVideo">
+                <source src=".\FACEMASK\video_yolov4.mp4" type="video/mp4">
+            </video>
+
+
+            <div class="mbr-container">
+                <h2 class="mbr-title align-center mbr-fonts-style mbr-bold mbr-white display-1"><font color="WhiteSmoke">FaceMask</font></h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light  mbr-fonts-style mbr-white display-5">A face-mask detector dataset for performance evaluation and test benchmarking</h3>
+            </div>
+        </section>
+
+        <section class="content4 mbr-section article cid-r4VMDNzPkO" id="content4-f">
+        <section class="features10 cid-r4WnAN7wHN" id="features10-k">
+            <div class="container">
+                    <div class="mbr-text align-center mbr-fonts-style mbr-light display-4">
+                        <div>The FaceMask Database is publicly available and it can be used for experimental purposes with the request to cite the following paper:<br>
+                        </div>
+                    <div>
+
+            <div>
+                <strong> PAPER Description:&nbsp;</strong>
+            </div>
+        </section>
+
+
+
+        <!-- Description -->
+        <div class="container">
+            <div class="mbr-row mbr-justify-content-center">
+                <div class="mbr-text mbr-fonts-style mbr-col-sm-12 mbr-col-md-8 display-7">
+                    <blockquote>
+                        The FaceMask Database consists of 4,866 images of people in diffrerent environments and situations. These images were
+                        manually collected from Google Images and annotated with LabelImg tool in YOLO format. They are divided into two categories containing people wearing face masks and people not wearing face masks. The Dataset is splited into 3 folders -the training folder, the validation folder and the test folder.
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+
+        <!-- Categories -->
+        <section class="mbr-section content9 cid-r4VGH1Nvwi" id="content9-9">
+            <div class="mbr-container">
+                <div class="mbr-text counter-container mbr-fonts-style display-7">
+                    <table>
+                        <tr>
+                            <td><font color=#3E5C76 size="6" >Categories</font> </td>
+                        </tr>
+                    </table>
+                    <hr>
+                    <br>
+                    <ol>
+                        <li><strong>Mask</strong>&nbsp;- Mask category is consisted of images depicting people wearing their mask correctly and people wearing their mask incorrectly, leaving their nose uncovered. There are 22137 people in total wearing a face mask.</li>
+                        <li><strong>No_Mask </strong>&nbsp;- No_Mask category is consisted of images depicting people not wearing a mask at all, as well as people wearing a mask incorrectly without covering their mouth. There are 18515 people in total not wearing a face mask.&nbsp;</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section class="mbr-section content5 cid-r4VEiuBbIx" id="content5-5">
+
+
+        <!--<div class="mbr-container">
+                <div class="mbr-section-btn align-center">
+                    <a class="btn btn-primary display-7" href=".\FACEMASK\_training_set.rar">Training dataset</a>
+                    <a class="btn btn-primary display-7" href=".\FACEMASK\_validation_set.rar">Validation dataset</a>
+                    <a class="btn btn-primary display-7" href=".\FACEMASK\_test_set.rar">Test dataset</a> </div>
+        </div>-->
+        </section>
+
+        <section class="content17 mbr-section cid-r4VN9wwsu1" id="content17-g">
+
+            <div class="container">
+
+                <div class="mbr-row mbr-justify-content-center">
+                    <div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-3">
+                        <h3 class="mbr-section-title mbr-fonts-style align-left mbr-bold mbr-white display-5">
+                            <a href=".\FACEMASK\description.pdf" class="text-white">Description</a></h3>
+                        <p class="mbr-text mbr-fonts-style align-left mbr-white display-4">Description of the FaceMaskDetector Dataset and its contents.</p>
+                    </div>
+
+                    <div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-3">
+                        <h3 class="mbr-section-title mbr-fonts-style align-left mbr-bold mbr-white display-5"><a href=".\FACEMASK\weights.rar" class="text-white">Extracted Features</a></h3>
+                        <p class="mbr-text mbr-fonts-style align-left mbr-white display-4">Features extracted using the YOLOv3,YOLOv4 and YOLOv4-tiny.</p>
+                    </div>
+
+                    <div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-3">
+                        <h3 class="mbr-section-title mbr-fonts-style align-left mbr-bold mbr-white display-5"><a href=".\FACEMASK\Features_IMAGE_DEEP\ConvFeatures.rar" class="text-white">Cross Validation</a></h3>
+                        <p class="mbr-text mbr-fonts-style align-left mbr-white display-4">Features extracted using the 2-fold Cross Validation.&nbsp;</p>
+                    </div>
+
+                     <div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-3">
+                        <h3 class="mbr-section-title mbr-fonts-style align-left mbr-bold mbr-white display-5"><a href=".\FACEMASK\Images_URLS.rar" class="text-white">Image URLs</a></h3>
+                        <p class="mbr-text mbr-fonts-style align-left mbr-white display-4">Google Images urls</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Footer -->
+        <section class="content4 mbr-section article cid-r4VMDNzPkO" id="content4-f">
+
+            <div class="container">
+                <div class="mbr-row mbr-justify-content-center">
+                    <div>
+                        <table>
+                            <tr>
+                                <!-- <td><img src=".\SIPAKMED\espa_en_old.png"></td> -->
+                                <td> This work has been co-funded by the European Union and Greek national funds through the Operational Program Competitiveness, Entrepreneurship, and Innovation, under the call RESEARCH-CREATE-INNOVATE (Project Code: T1EDK-04517).</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <button id="scrollToTopButton" on="tap:top-page.scrollTo(duration=200)">
+            <a class="scroll-to-top-arrow"></a>
+        </button>
+
+    </body>
+</html>
