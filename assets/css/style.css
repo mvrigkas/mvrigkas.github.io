@@ -180,14 +180,14 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 }*/
 
 #profile .portrate {
-		background-image: url(../../images/MVrigkas2.jpg);
+		background-image: url(../../images/Vrigkas-300x300.webp);
 		margin: 0 0 0 40px;
 		height: 150px;
 		width: 150px;
 		display: block;
 		border: 5px solid rgba(120, 129, 149, 0.19);
-		-webkit-clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
-		clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+		-webkit-clip-path: polygon(4% 5%, 99% 1%, 96% 95%, 1% 99%);
+		clip-path: polygon(4% 5%, 99% 1%, 96% 95%, 1% 99%);
 		-webkit-background-size: contain;
 		-moz-background-size: contain;
 		background-size:  contain;
