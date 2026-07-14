@@ -77,3 +77,15 @@ ul.timeline li.open .data {
 #labp-heads-wrap:after{
 	border-top-color: #50b1fb;
 }
+
+.pdf-badge{
+	background-color: #50b1fb;
+}
+
+.ext-link-badge {
+	background-color: #50b1fb !important;
+}
+
+.attachment-badge {
+background-color: #50b1fb !important;
+}
