@@ -658,6 +658,22 @@ a.dataset-badge-link:hover .dataset-download-badge {
 }
 
 
+.badge-plain {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 14px;
+  border-radius: 16px;
+  background-color: #3b82f6;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+a.pdf-badge-link.tooltips:hover .badge-plain {
+  background-color: #d9534f !important;
+}
+
 /* page specifics
  **************************************************/
 .page-container {
