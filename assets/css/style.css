@@ -628,6 +628,36 @@ a.pdf-badge-link.tooltips:hover .dataset-badge {
   opacity: 1;
 }
 
+
+/*Downloads - Dataset Section
+****************************************************/
+.dataset-badge-link {
+  background: none !important;
+  padding: 0 !important;
+  border: none !important;
+  text-decoration: none !important;
+  display: inline-block;
+}
+
+.dataset-download-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  background-color: #50b1fb;
+  color: #fff;
+  font-weight: 600;
+  font-size: 13px;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+a.dataset-badge-link:hover .dataset-download-badge {
+  background-color: #d9534f !important;
+  transform: translateY(-1px);
+}
+
+
 /* page specifics
  **************************************************/
 .page-container {
