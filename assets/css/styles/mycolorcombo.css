@@ -1,0 +1,99 @@
+ul#navigation li.external:hover .icon, ul#navigation li.currentmenu .icon{
+	color: #739c77;
+}
+.ul-boxed li {
+	border-left-color:#739c77;
+}
+ul.ul-card li .dy .year {
+	background-color: #739c77;
+}
+ul.myul-card li .dy .year {
+	background-color: #739c77;
+}
+ul.ul-dates div.dates span {
+	background-color: #739c77;
+}
+ul.timeline li .date {
+	background: #739c77;
+}
+ul.timeline li .data {
+	border-left-color: #739c77;
+}
+.ul-withdetails li .imageoverlay {
+	background: #739c77;
+}
+.cd-active.cd-dropdown > span {
+	color: #739c77;
+}
+.cd-active.cd-dropdown ul li span:hover {
+	background: #739c77;
+}
+.pitems .pubmain .pubassets {
+	border-top-color:#739c77;
+}
+.pitems .pubmain .pubassets a:hover,.pitems .pubmain .pubassets a:focus,.pitems .pubmain .pubassets a.pubcollapse {
+	background: #739c77;
+}
+.contact-office .icon-huge, .contact-lab .icon-huge {
+	color: #739c77;
+}
+
+.site-btn{
+	background: #e4ba8a;
+}
+
+.btn-info {
+  background-color: #e4ba8a;/
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info {
+  background-color: #a96036;
+}
+
+/* secondary color
+**************************************************/
+ul.ul-card li .dy .degree {
+	background-color: #e4ba8a;
+}
+ul.myul-card li .dy .degree {
+	background-color: #e4ba8a;
+}
+ul.ul-dates div.dates span:last-child {
+	background-color: #e4ba8a;
+}
+ul.timeline li.open .circle {
+	background-color: #e4ba8a;
+}
+ul.timeline li.open .data {
+	border-color: #e4ba8a;
+}
+#labp-heads-wrap {
+	background-color: #e4ba8a;
+}
+#labp-heads-wrap:after{
+	border-top-color: #e4ba8a;
+}
+
+.pdf-badge{
+	background-color: #c6274d;
+}
+
+.ext-link-badge {
+	background-color: #c6274d !important;
+}
+
+.attachment-badge {
+background-color: #c6274d !important;
+}
+
+.dataset-badge {
+background-color: #c6274d !important;
+}
+
+.badge-plain{
+background-color: #c6274d !important;
+}
