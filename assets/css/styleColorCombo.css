@@ -1524,11 +1524,31 @@ ul.grid li {
 	width: 50%;
 }
 
+ ::selection {
+  background-color: #ffcb76;
+  color: #fff;
+}
+
+::-moz-selection {
+  background-color: #ffcb76;
+  color: #fff;
+}
+
 }
 
 @media screen and (max-width: 400px) {
 	ul.grid li {
 	width: 100%;
+}
+
+ ::selection {
+  background-color: #ffcb76;
+  color: #fff;
+}
+
+::-moz-selection {
+  background-color: #ffcb76;
+  color: #fff;
 }
 
 }
@@ -1703,6 +1723,16 @@ ul.grid li a,ul.grid li img {
 	border-left: none;
 }
 
+ ::selection {
+  background-color: #ffcb76;
+  color: #fff;
+}
+
+::-moz-selection {
+  background-color: #ffcb76;
+  color: #fff;
+}
+
 ul.timeline .circle {
 	display: none;
 }
@@ -1722,6 +1752,16 @@ ul.timeline .date {
 @media (max-width: 991px) {
 	.mobilemenu {
 	display: block;
+}
+
+ ::selection {
+  background-color: #ffcb76;
+  color: #fff;
+}
+
+::-moz-selection {
+  background-color: #ffcb76;
+  color: #fff;
 }
 
 .social-icons,#main-nav {
