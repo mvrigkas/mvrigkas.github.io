@@ -1395,12 +1395,6 @@ ul.timeline li .data .text {
 }
 
 
-#filters .row {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
 /* publications
  **************************************************/
 #pub-grid .mix {
