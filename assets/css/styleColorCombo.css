@@ -594,6 +594,20 @@ a.pdf-badge-link.tooltips:hover .dataset-badge {
 }
 
 
+.badge-row-spaced {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.expand-icon-right {
+  margin-left: auto;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+
 /* copy to clipboard
 ***************************************************/
 .pre-wrapper {
