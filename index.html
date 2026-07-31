@@ -821,8 +821,15 @@
                                                 <option class="filter" value="tpaper">Technical Papers</option> -->
                                             </select>
                                         </div>
-                                        <div class="col-md-3">
-                                          <br>
+                                        <div class="col-md-3" id="sort">
+                                            <span>Sort by year:</span>
+                                            <div class="btn-group pull-right"> 
+                                                <button type="button" data-sort="data-year" data-order="desc" class="sort btn btn-default"><i class="icon-sort-by-order"></i></button>
+                                                <button type="button" data-sort="data-year" data-order="asc" class="sort btn btn-default active"><i class="icon-sort-by-order-alt"></i></button>
+                                            </div>
+                                          <!--
+                                          <div class="col-md-3">
+                                            <br>
                                             <select id="cd-dropdown" name="cd-dropdown" class="cd-select-year">
                                                 <option class="filter" value="all" selected>All years</option>
                                                 <option class="filter" value="2026">2026</option>
@@ -842,6 +849,7 @@
                                                 <option class="filter" value="2012">2012</option>
                                                 <option class="filter" value="2011">2011</option>
                                             </select>
+                                            -->
                                         </div>
                                     </div>
                                 </div>
